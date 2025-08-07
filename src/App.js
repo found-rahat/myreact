@@ -9,11 +9,13 @@ import FunctionClick from "./components/click";
 import Eventbind from "./components/eventbind";
 import ParentComponent from "./components/ParentComponent";
 import Conditional from "./components/conditionalrendering";
+import NameList from "./components/NameList";
 
 function App() {
   return (
     <div className="App">
-      <Conditional />
+      <NameList />
+      {/* <Conditional /> */}
       {/* <ParentComponent /> */}
       {/* <Eventbind name="hello sir My name id rahat" /> */}
       {/* <FunctionClick /> */}
