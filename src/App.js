@@ -7,11 +7,13 @@ import Massage from "./components/massage";
 import Counter from "./components/counter";
 import FunctionClick from "./components/click";
 import Eventbind from "./components/eventbind";
+import ParentComponent from "./components/ParentComponent";
 
 function App() {
   return (
     <div className="App">
-      <Eventbind name="hello sir My name id rahat" />
+      <ParentComponent />
+      {/* <Eventbind name="hello sir My name id rahat" /> */}
       {/* <FunctionClick /> */}
       {/* <Counter counts={10} /> */}
       {/* <Massage /> */}
