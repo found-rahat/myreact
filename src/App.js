@@ -8,11 +8,13 @@ import Counter from "./components/counter";
 import FunctionClick from "./components/click";
 import Eventbind from "./components/eventbind";
 import ParentComponent from "./components/ParentComponent";
+import Conditional from "./components/conditionalrendering";
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <Conditional />
+      {/* <ParentComponent /> */}
       {/* <Eventbind name="hello sir My name id rahat" /> */}
       {/* <FunctionClick /> */}
       {/* <Counter counts={10} /> */}
