@@ -41,34 +41,27 @@ export class Form extends Component {
     event.preventDefault();
   };
   render() {
+    const { name, age, comment, skill } = this.state;
     return (
       <form onSubmit={this.handelsubmit}>
         <div>
           <label>Name</label>
-          <input
-            type="text"
-            onChange={this.handelNameChange}
-            value={this.state.name}
-          />
+          <input type="text" onChange={this.handelNameChange} value={name} />
         </div>
         <div>
           <label>age</label>
-          <input
-            type="number"
-            onChange={this.handelAgeChange}
-            value={this.state.age}
-          />
+          <input type="number" onChange={this.handelAgeChange} value={age} />
         </div>
         <div>
           <label>comment</label>
           <textarea
             onChange={this.handelCommentChange}
-            value={this.state.comment}
+            value={comment}
           ></textarea>
         </div>
         <div>
           <label>Skill</label>
-          <select onChange={this.handelSkillChange} value={this.state.skill}>
+          <select onChange={this.handelSkillChange} value={skill}>
             <option value="react">React</option>
             <option value="js">js</option>
             <option value="jsx">jsx</option>
