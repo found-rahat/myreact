@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, PureComponent } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { Khan } from "./components/greet";
@@ -14,11 +14,15 @@ import Form from "./components/Form";
 import LifecycleA from "./components/lifecycleA";
 import FragmentDemo from "./FragmentDemo";
 import Table from "./components/Table";
+import ParentComp from "./components/ParentComp";
+// import PureComp from "./components/PureComp";
 
 function App() {
   return (
     <div className="App">
-      <Table />
+      <ParentComp />
+      {/* <PureComp /> */}
+      {/* <Table /> */}
       {/* <FragmentDemo /> */}
       {/* <LifecycleA /> */}
       {/* <Form /> */}
