@@ -10,11 +10,13 @@ import Eventbind from "./components/eventbind";
 import ParentComponent from "./components/ParentComponent";
 import Conditional from "./components/conditionalrendering";
 import NameList from "./components/NameList";
+import Form from "./components/Form";
 
 function App() {
   return (
     <div className="App">
-      <NameList />
+      <Form />
+      {/* <NameList /> */}
       {/* <Conditional /> */}
       {/* <ParentComponent /> */}
       {/* <Eventbind name="hello sir My name id rahat" /> */}
