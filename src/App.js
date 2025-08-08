@@ -12,11 +12,15 @@ import Conditional from "./components/conditionalrendering";
 import NameList from "./components/NameList";
 import Form from "./components/Form";
 import LifecycleA from "./components/lifecycleA";
+import FragmentDemo from "./FragmentDemo";
+import Table from "./components/Table";
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA />
+      <Table />
+      {/* <FragmentDemo /> */}
+      {/* <LifecycleA /> */}
       {/* <Form /> */}
       {/* <NameList /> */}
       {/* <Conditional /> */}
