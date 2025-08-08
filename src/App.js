@@ -11,11 +11,13 @@ import ParentComponent from "./components/ParentComponent";
 import Conditional from "./components/conditionalrendering";
 import NameList from "./components/NameList";
 import Form from "./components/Form";
+import LifecycleA from "./components/lifecycleA";
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <LifecycleA />
+      {/* <Form /> */}
       {/* <NameList /> */}
       {/* <Conditional /> */}
       {/* <ParentComponent /> */}
