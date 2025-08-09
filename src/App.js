@@ -16,11 +16,13 @@ import FragmentDemo from "./FragmentDemo";
 import Table from "./components/Table";
 import ParentComp from "./components/ParentComp";
 // import PureComp from "./components/PureComp";
+import RefDemo from "./components/RefDemo";
 
 function App() {
   return (
     <div className="App">
-      <ParentComp />
+      <RefDemo />
+      {/* <ParentComp /> */}
       {/* <PureComp /> */}
       {/* <Table /> */}
       {/* <FragmentDemo /> */}
