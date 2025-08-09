@@ -2,7 +2,7 @@ import React, { Component, PureComponent } from "react";
 import Regcomp from "./Regcomp";
 import PureComp from "./PureComp";
 
-export class ParentComp extends PureComponent {
+export class ParentComp extends Component {
   constructor(props) {
     super(props);
 
@@ -23,7 +23,7 @@ export class ParentComp extends PureComponent {
       <div>
         Parent Component
         <Regcomp name={this.state.name} />
-        <PureComp name={this.state.name} />
+        {/* <PureComp name={this.state.name} /> */}
       </div>
     );
   }
